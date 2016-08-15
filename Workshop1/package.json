@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Node.js and the Internet of Things first workshop",
   "dependencies": {
-    "johnny-five": "^0.8.29"
+    "firmata": "^0.14.1",
+    "johnny-five": "^0.8.29",
+    "udp-serial": "^0.2.0"
   },
   "author": "Kimberly Lewis",
   "license": "MIT"
