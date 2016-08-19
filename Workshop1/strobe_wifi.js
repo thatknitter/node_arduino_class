@@ -5,7 +5,7 @@ var board, led, button;
 
 //create new serial port and specify the host to connect to
 var sp = new VirtualSerialPort({
-  host: '192.168.4.1',
+  host: '10.4.131.248',
   type: 'udp4',
   port: 1025
 });
